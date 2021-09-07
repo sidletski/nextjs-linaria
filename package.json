@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-linaria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@linaria/babel-preset": "^3.0.0-beta.12",
+    "@linaria/core": "^3.0.0-beta.4",
+    "@linaria/react": "^3.0.0-beta.7",
+    "@linaria/shaker": "^3.0.0-beta.12",
+    "next": "11.1.2",
+    "next-compose-plugins": "^2.2.1",
+    "next-linaria": "git://github.com/Mistereo/next-linaria",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "core-js": "^3.17.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}
